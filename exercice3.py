@@ -13,7 +13,7 @@ for i in text:
 
 #find if end of word is digit
 #	if i[-1].isdigit(): 
-
+# if i[0] first symbol of the word, [-1] the last symbol fo the word; isalpha=letter
 	if i[0].isalpha():
 #find the t in the last sing of the word 
 #	if i[-1] == 't': #find the t in the last sing of the word 
